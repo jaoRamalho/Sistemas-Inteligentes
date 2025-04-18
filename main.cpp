@@ -7,7 +7,7 @@ int main() {
     minPeso = 1;
     maxPeso = 10;
     maxConexoesExtras = 4;
-    std::string nomeGrafo = "grafo_aleatorio.txt";
+    std::string nomeGrafo = "grafo_aleatorio";
     
     Grafo g(n_vertices, nomeGrafo, minPeso, maxPeso, maxConexoesExtras);
     g.gerarGrafoAleatorioConexo(n_vertices, nomeGrafo, minPeso, maxPeso, maxConexoesExtras);
