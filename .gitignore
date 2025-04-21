@@ -1,2 +1,6 @@
 .vscode
 *.exe
+venv
+.venv
+grafo
+grafo_aleatorio.txt
