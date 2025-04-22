@@ -6,7 +6,7 @@ import re
 # Lê o arquivo .txt que contém a definição do grafo.
 # Você pode passar o caminho do arquivo como argumento ou digitá-lo quando solicitado.
 
-file_name = "graforEsparco.txt"
+file_name = "grafo_teste1.txt"
 
 try:
     with open(file_name, 'r', encoding='utf-8') as f:
